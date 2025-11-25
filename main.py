@@ -13,7 +13,7 @@ def main():
     if produto1.vender(2):
         print("Venda realizada com sucesso!")
         registrar_log("Venda de 5 teclado realizada com sucesso!")
-    else
+    else:
         print("Estoque insuficiente.")
 
     if __name__ == "__main__":
